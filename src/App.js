@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 export default function App() {
@@ -9,7 +8,8 @@ export default function App() {
         This project was created by Marline John and is{" "}
         <a
           href="https://github.com/marlinejohn/weather-app-react"
-          target="_blank"
+          target="_blank "
+          rel="noreferrer"
         >
           Open sourced on GitHub
         </a>
