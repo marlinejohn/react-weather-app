@@ -1,6 +1,6 @@
 .Weather {
   border: 1px solid #9d999d;
-  font-family: Google Sans, arial, sans-serif;
+  font-family: arial, sans-serif;
   padding: 15px;
   margin: 30px auto;
   border-radius: 4px;
@@ -29,9 +29,10 @@
   margin-right: 10px;
   width: 64px;
   display: inline-block;
+  position: relative;
+  top: -20px;
 }
 .Weather .temperature {
-  font-weight: bold;
   font-weight: 400;
   font-size: 64px;
   line-height: 64px;
@@ -40,6 +41,7 @@
   color: #0c0b0c;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1;
   margin-left: 5px;
   position: relative;
   top: -32px;
