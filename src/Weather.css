@@ -4,7 +4,6 @@
   padding: 15px;
   margin: 30px auto;
   border-radius: 4px;
-  /* max-width: 600px; */
 }
 
 .Weather h1 {
@@ -19,21 +18,22 @@
   padding: 0;
 }
 .Weather li {
+  color: rgb(129, 126, 126);
   font-size: 15px;
   font-weight: 100;
   line-height: 18px;
   list-style: none;
 }
-.Weather img {
+.Weather canvas {
   height: 64px;
   margin-right: 10px;
   width: 64px;
   display: inline-block;
   position: relative;
-  top: -20px;
+  /* top: -20px; */
 }
 .Weather .temperature {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 64px;
   line-height: 64px;
 }
