@@ -1,0 +1,17 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast-day {
+  color: rgb(114, 110, 110);
+}
+
+.WeatherForecast-temperatures-max {
+  color: rgb(114, 110, 110);
+}
+
+.WeatherForecast-temperatures-min {
+  color: rgb(129, 126, 126);
+  opacity: 0.6;
+  margin-left: 5px;
+}
