@@ -22,7 +22,7 @@ export default function WeatherIcon(props) {
     "050d": "FOG",
     "050n": "FOG",
   };
-  // console.log(codeMapping[props.code]);
+  // console.log("Mappinng", codeMapping[props.code]);
 
   return (
     <ReactAnimatedWeather

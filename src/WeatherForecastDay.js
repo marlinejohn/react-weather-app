@@ -13,6 +13,8 @@ export default function WeatherForecastDay(props) {
   }
 
   function day() {
+    // console.log("Base", props.data.weather[0].icon);
+
     let date = new Date(props.data.dt * 1000);
     let day = date.getDay();
 
